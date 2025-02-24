@@ -1,0 +1,13 @@
+def print_isosceles_triangle(height):
+  """
+  Prints an isosceles triangle with asterisks.
+
+  Args:
+    height: The height of the triangle (number of rows).
+  """
+  for i in range(1, height + 1):
+    print(" " * (height - i) + "*" * (2 * i - 1))
+
+# Example usage
+# you can change the values of the triangle rows
+print_isosceles_triangle(5)
